@@ -36,7 +36,13 @@ body{
     margin-left: 35px;
     transition: .3s;
 }
-
 .navbar a:hover{
     color: #0ef;
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(wall.jpg) no-repeat;
 }
