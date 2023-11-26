@@ -44,5 +44,17 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(wall.jpg) no-repeat;
+    background-color: rgb(16, 16, 39);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.home-content{
+    max-width: 600px;
+}
+.home-content h3{
+    
 }
