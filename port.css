@@ -86,6 +86,9 @@ body{
 }
 .home-content p{
     font-size: 20px;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
 }
 .home-sci a {
     display: inline-flex;
@@ -94,12 +97,17 @@ body{
     width: 40px;
     height: 40px;
     background: transparent;
-    border:2px solid #0ef ;
+    border:2px solid #0ef;
     border-radius: 50%;
     font-size: 20px;
     color: #0ef;
-    text-decoration:none ;
+    text-decoration:none;
+    transition: .5s ease;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var);
     margin:30px, 15px 30px 0;
+
 
 }
 .home-sci a:hover{
@@ -133,6 +141,16 @@ body{
     }
     100%{
         transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideLeft {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
         opacity: 1;
     }
 }
