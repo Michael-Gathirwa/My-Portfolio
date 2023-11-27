@@ -64,6 +64,9 @@ body{
 .home-content h3{
     font-size: 32px;
     font-weight: 700;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
 }
 .home-content h3:nth-of-type(2){
    margin-bottom:30px; 
@@ -76,6 +79,10 @@ body{
     font-size: 56px;
     font-weight: 700;
     margin: -3px 0;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: .1s;
+
 }
 .home-content p{
     font-size: 20px;
@@ -126,6 +133,26 @@ body{
     }
     100%{
         transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideTop {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes slideBottom {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
         opacity: 1;
     }
 }
