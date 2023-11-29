@@ -275,7 +275,10 @@ section{
     margin-top: 40px 0;
 }
 .Technical-bars .bar:first-child{
-    
+    margin-top: 0;
+}
+.Technical-bars .bar:last-child{
+    margin-bottom: 0;
 }
 
 @keyframes slideRight {
