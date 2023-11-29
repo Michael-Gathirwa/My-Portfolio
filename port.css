@@ -311,11 +311,26 @@ section{
     background-color: #0ef;
     position: absolute;
     border-radius: 10px;
-    animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
     transform: scaleX(0);
     transform-origin: left;
  
 }
+ .progress-line.html span{
+    width: 80%;
+ }
+ .progress-line.css span{
+    width: 57%;
+ }
+ .progress-line.javascript span{
+    width: 32%;
+ }
+ .progress-line.python span{
+    width: 12%;
+ }
+ .progress-line.react span{
+    width: 25%;
+ }
 
 
 
