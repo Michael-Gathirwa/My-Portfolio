@@ -344,24 +344,24 @@ section{
     opacity: 0;
 }
 
-.progress-line.html::after{
-    content: "90%";
+.progress-line.html ::after{
+    content: "80%";
 }
 
-.progress-line.css::after{
-    content: "60%";
+.progress-line.css ::after{
+    content: "57%";
 }
 
-.progress-line.javascript::after{
-    content: "76%";
+.progress-line.javascript ::after{
+    content: "32%";
 }
 
-.progress-line.python::after{
-    content: "87%";
+.progress-line.python ::after{
+    content: "12%";
 }
 
 .progress-line.react ::after{
-    content: "66%";
+    content: "25%";
 }
 
 .progress-line span::before{
