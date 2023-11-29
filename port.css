@@ -393,7 +393,6 @@ section{
 
 
 
-
 @keyframes slideRight {
     0%{
         transform: translateX(-100px);
@@ -434,3 +433,34 @@ section{
         opacity: 1;
     }
 }
+
+
+
+
+
+
+.main-text{
+    padding-top: 130px;
+    margin-top: 200px;
+}
+
+.main-text h2{
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+}
+.main-text h2 span{
+    color: #0ef;
+}
+.portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(359px, auto));
+}
+.row{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
