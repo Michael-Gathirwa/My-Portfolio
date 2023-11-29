@@ -280,6 +280,9 @@ section{
 .Technical-bars .bar:last-child{
     margin-bottom: 0;
 }
+.Technical-bars .bar .info{
+    margin-bottom: 0;
+}
 
 @keyframes slideRight {
     0%{
