@@ -274,7 +274,9 @@ section{
 .Technical-bars .bar{
     margin-top: 40px 0;
 }
-
+.Technical-bars .bar:first-child{
+    
+}
 
 @keyframes slideRight {
     0%{
