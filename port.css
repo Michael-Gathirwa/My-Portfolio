@@ -283,6 +283,12 @@ section{
 .Technical-bars .bar .info{
     margin-bottom: 0;
 }
+.Technical-bars .bar .info span{
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
 
 @keyframes slideRight {
     0%{
