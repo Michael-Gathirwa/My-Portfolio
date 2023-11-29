@@ -292,6 +292,7 @@ section{
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
 }
+
 .Technical-bars .bar .progress-line{
     position: relative;
     border-radius: 10px;
@@ -302,7 +303,6 @@ section{
     transform: scaleX(0);
     transform-origin: left;
 }
-
 @keyframes animate {
     100%{
         transform: scaleX(1);
@@ -387,87 +387,6 @@ section{
         opacity: 1;
     }   
 }
-
-.radial-bars{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-
-.radial-bars .radial-bar{
-    width: 50%;
-    height: 170px;
-    margin-bottom: 10px;
-    position: relative;
-}
-.radial-bars .radial-bar svg{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(-90%);
-}
-
-.radial-bars .radial-bar .progress-bar{
-    stroke-width: 10;
-    stroke: black;
-    fill: transparent;
-    stroke-dasharray: 502;
-    stroke-dashoffset: 502;
-    stroke-linecap: round;
-    animation: animate-bar 1s linear forwards;
-}
-@keyframes animate-bar {
-    100%{
-        stroke-dashoffset: -1;
-    }
-}
-
-.path{
-    stroke-width: 10;
-    stroke: #0eff;
-    fill: transparent;
-    stroke-dasharray: 502;
-    stroke-dashoffset: 502;
-    stroke-linecap: round;
-}
-
-.path-1{animation: animate-path1 1s 1s linear forwards}
-.path-2{animation: animate-path2 1s 1s linear forwards}
-.path-3{animation: animate-path3 1s 1s linear forwards}
-.path-4{animation: animate-path4 1s 1s linear forwards}
-
- @keyframes animate-path1 {
-    100%{
-        stroke-dashoffset: 150;
-    }
- }
- @keyframes animate-path2 {
-    100%{
-        stroke-dashoffset: 120;
-    }
- }
- @keyframes animate-path3 {
-    100%{
-        stroke-dashoffset: 8;
-    }
- }
- @keyframes animate-path4 {
-    100%{
-        stroke-dashoffset: 168;
-    }
- }
- .radial-bar .progress{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 17px;
-    font-weight: 500;
-    animation: showText 0.5s 1s linear forwards;
-    opacity: 0;
- }
 
 
 
