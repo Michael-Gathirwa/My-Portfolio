@@ -408,7 +408,7 @@ section{
 
 .radial-bars .radial-bar .progress-bar{
     stroke-width: 10;
-    stop-color: black;
+    stroke: black;
     fill: transparent;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
@@ -430,6 +430,41 @@ section{
     stroke-linecap: round;
 }
 
+.path-1{animation: animate-path1 1s 1s linear forwards}
+.path-2{animation: animate-path2 1s 1s linear forwards}
+.path-3{animation: animate-path3 1s 1s linear forwards}
+.path-4{animation: animate-path4 1s 1s linear forwards}
+
+ @keyframes animate-path1 {
+    100%{
+        stroke-dashoffset: 150;
+    }
+ }
+ @keyframes animate-path2 {
+    100%{
+        stroke-dashoffset: 120;
+    }
+ }
+ @keyframes animate-path3 {
+    100%{
+        stroke-dashoffset: 8;
+    }
+ }
+ @keyframes animate-path4 {
+    100%{
+        stroke-dashoffset: 168;
+    }
+ }
+ .radial-bar .progress{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+ }
 
 
 
