@@ -268,6 +268,12 @@ section{
     text-decoration-thickness: 5px;
     margin-bottom: 50px;
 }
+.bar{
+    font-size: 23px;
+}
+.Technical-bars .bar{
+    margin-top: 40px 0;
+}
 
 
 @keyframes slideRight {
