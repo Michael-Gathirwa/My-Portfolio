@@ -559,7 +559,7 @@ section{
     color: #0ef;
     font-size: 20px;
     font-weight: 600;
-    transition: 1ll .40s ease;
+    transition: all .40s ease;
 }
 .contact-list li a:hover{
     transform: scale(1.01) translateY(-5px);
@@ -573,14 +573,15 @@ section{
     height: 40px;
     background: transparent;
     border: 2px solid #0ef;
+    border-radius: 50%;
     font-size: 20px;
     color: #0ef;
     text-decoration: none;
     margin: 30px 15px 30px 0;
     transition: .5s ease;
-    opacity: 0;
+    opacity: 1;
     animation: slideleft 1s ease forwards;
-    animation-delay: calc(.2s *var(--1));
+    animation-delay: calc(.2s * var(--1));
 }
 .contact-icons i:hover{
     background: #0ef;
