@@ -608,5 +608,9 @@ section{
     height: 220px;
 }
 .contact-form form .send{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
     
+}   
 }
