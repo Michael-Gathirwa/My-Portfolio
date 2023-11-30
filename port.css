@@ -609,10 +609,10 @@ section{
 }
 .contact-form form .send{
     display: inline-block;
-    padding: 12px 28px;
+    padding: 14px 28px;
     background: #0ef;
     border-radius: 40px;
-    font-size: 16px;
+    font-size: 18px;
     color: #081b29;
     letter-spacing: 1px;
     text-decoration: none;
