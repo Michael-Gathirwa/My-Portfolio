@@ -601,4 +601,12 @@ section{
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+.contact-form textarea{
+    resize: none;
+    height: 220px;
+}
+.contact-form form .send{
+    
 }
