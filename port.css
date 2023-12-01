@@ -465,7 +465,7 @@ section{
 }
 
 .row img{
-    width: 100%;
+    width: 50%;
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
