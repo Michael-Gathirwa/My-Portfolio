@@ -466,8 +466,9 @@ section{
 
 .row img{
     width: 100%;
+    height: auto;
     border-radius: 8px;
-    display: block;
+    display: inline-block;
     transition: transform 0.5s;
 }
 .layer{
