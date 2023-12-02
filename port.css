@@ -388,12 +388,6 @@ section{
         opacity: 1;
     }   
 }
-
-
-
-
-
-
 @keyframes slideRight {
     0%{
         transform: translateX(-100px);
