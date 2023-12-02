@@ -347,7 +347,6 @@ section{
     animation: showText 0.5s 1.5s linear forwards;
     opacity: 0;
 }
-
 .progress-line.html ::after{
     content: "80%";
 }
