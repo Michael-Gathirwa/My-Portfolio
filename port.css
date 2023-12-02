@@ -345,11 +345,9 @@ section{
 .progress-line.python ::after{
     content: "20%";
 }
-
 .progress-line.react ::after{
     content: "25%";
 }
-
 .progress-line span::before{
     content:"";
     position: absolute;
