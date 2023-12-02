@@ -309,7 +309,6 @@ section{
         transform: scaleX(1);
     } 
 }
-
 .Technical-bars .bar .progress-line span{
     height: 100%;
     background-color: #0ef;
