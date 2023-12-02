@@ -112,8 +112,6 @@ body{
     animation: slideLeft 1s ease forwards;
     animation-delay: calc(.2s * var(--i));
     margin:30px, 15px 30px 0;
-
-
 }
 .home-sci a:hover{
     background: #0ef;
