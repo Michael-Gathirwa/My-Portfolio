@@ -336,15 +336,12 @@ section{
 .progress-line.html ::after{
     content: "80%";
 }
-
 .progress-line.css ::after{
     content: "57%";
 }
-
 .progress-line.javascript ::after{
     content: "32%";
 }
-
 .progress-line.python ::after{
     content: "20%";
 }
