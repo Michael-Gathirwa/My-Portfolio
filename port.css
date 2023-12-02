@@ -293,7 +293,6 @@ section{
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
 }
-
 .Technical-bars .bar .progress-line{
     position: relative;
     border-radius: 10px;
