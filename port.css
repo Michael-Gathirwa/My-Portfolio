@@ -429,6 +429,16 @@ section{
     transform: translate(-50%, -50%) rotate(-90%);
 }
 
+.radial-bars .radial-bar .progress-bar{
+    stroke-width: 10;
+    stroke: black;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+
 .main-text{
     padding-top: 20px;
     margin-top: 150px;
