@@ -438,6 +438,12 @@ section{
     stroke-linecap: round;
     animation: animate-bar 1s linear forwards;
 }
+@keyframes animate-bar {
+    100%{
+        stroke-dashoffset: -1;
+    }
+}
+
 
 .main-text{
     padding-top: 20px;
