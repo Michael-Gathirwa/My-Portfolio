@@ -416,6 +416,12 @@ section{
     align-items: flex-start;
 }
 
+.radial-bars .radial-bar{
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+}
 .main-text{
     padding-top: 20px;
     margin-top: 150px;
