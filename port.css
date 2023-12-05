@@ -484,7 +484,7 @@ section{
     height: 100%;
 }
 .contact{
-    display: grid;
+    display: ;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 3rem;
