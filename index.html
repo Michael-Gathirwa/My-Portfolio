@@ -206,14 +206,21 @@
             </div>
 
             <div class="contact-form">
-                <form name="contact" netlify> 
-                    <input type="text" placeholder="Enter Name" required>
-                    <input type="email" placeholder="Enter your Email" required>
-
-                    <input type="" placeholder="Enter Your Subject">
-                    <textarea name="" id="" cols="40" rows="10" placeholder="Message" required></textarea>
-                    <input type="submit" value="submit" class="send">
-                </form>
+                <form name="contact" method="POST" netlify>
+                    <p>
+                      <label>Your Name: <input type="text" name="name" /></label>
+                    </p>
+                    <p>
+                      <label>Your Email: <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                      <label>Message: <textarea name="message"></textarea></label>
+                    </p>
+                    <p>
+                      <button type="submit">Send</button>
+                    </p>
+                  </form>
+                  
             </div>
         </section>
 
