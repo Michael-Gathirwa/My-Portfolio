@@ -131,6 +131,21 @@ body{
     box-shadow:0 0 5px #0ef,
     0 0 25px #0ef
 }
+.btn-box-CCTV{
+    display: inline-block;
+    padding: 12px 28px;
+    background: rgb(74, 135, 139);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #040c13;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation:slideTop 1s ease forwards;
+    animation-delay:2s;
+   
+}
 .btn-box:hover{
     box-shadow: 0 0 5x cyan,
     0 0 25px cyan,0 0 50px cyan,
