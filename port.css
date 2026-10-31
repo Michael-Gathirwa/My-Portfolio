@@ -309,6 +309,33 @@ ul { list-style: none; }
     color: var(--accent);
 }
 
+/* Ongoing projects */
+.section-sub { color: var(--muted); margin: -35px 0 40px; }
+.section-sub.center { text-align: center; }
+.thumb { position: relative; }
+.badge {
+    position: absolute;
+    top: 14px; right: 14px;
+    padding: 5px 14px;
+    border-radius: 30px;
+    background: rgba(8, 27, 41, 0.9);
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+.badge::before {
+    content: "";
+    display: inline-block;
+    width: 8px; height: 8px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background: var(--accent);
+    animation: pulse 1.6s infinite;
+}
+@keyframes pulse { 50% { opacity: .25; } }
+
 /* Contact */
 .contact {
     display: grid;
